@@ -1,5 +1,5 @@
 const btnAdd = document.getElementById("btnAdd")
-btnAdd.addEventListener("click", e => postProduct(prompt("Enter Product Name")))
+btnAdd.addEventListener("click", e => postProduct(prompt("Enter a Task")))
 
 async function postProduct(name) {
     const olProducts = document.getElementById("olProducts")
